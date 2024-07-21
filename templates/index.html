@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hello! There:D</h5>
+                    <p>WELCOME! To The World of Designs</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Since 1980:o</h5>
+                    <p>Serving Quality And Assurance</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1689308271302-e9cd7c1e6013?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>One stop Destination</h5>
+                    <p>Wide Range of Options/Tons of Designs</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<style>
+    .carousel-image {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .custom-heading {
+        font-weight: bold;
+        font-family: 'Times New Roman', serif;
+        font-size: 3em;
+    }
+
+    .featurette-heading {
+        font-weight: bold;
+        font-family: 'Times New Roman', serif;
+    }
+</style>
+
+<div class="container marketing my-4">
+    <h1 class="mainheadingnone text-center custom-heading">
+        AGARWAL MARBLES &amp; TILES
+    </h1>
+    <br>
+    
+    <div class="col-lg-8 offset-lg-2">
+
+        <h2 class="mainpageheading">
+            Elevate Your Space with Timeless Tiles
+        </h2>
+        <h5 style="font-style: italic; font-family: 'Times New Roman', serif;">Your space is a testament to your personality and style. At Agarwal Marbles and Tiles, we offer an exquisite
+            selection of tiles, meticulously crafted to perfection. Discover designs that transform every corner into a
+            memorable masterpiece.</h5>
+    </div>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row my-4">
+        <div class="col-lg-4">
+            <img src="https://static.theprint.in/wp-content/uploads/2022/02/kajaria-ceramics-logo-2022022806562620220228070722.jpg"
+                class="d-block w-100" alt="...">
+            <h2 class="fw-normal">Kajaria</h2>
+            <p>Kajaria Ceramics: Leading Innovators in Tile Solutions Since 1988.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img src="https://w7.pngwing.com/pngs/160/557/png-transparent-tile-morbi-somany-ceramics-business-somany-ceramics-text-service-logo-thumbnail.png"
+                class="d-block w-100" alt="...">
+            <h2 class="fw-normal">Somany</h2>
+            <p>Somany Tiles: High-quality ceramic and vitrified tiles known for their durability, aesthetic designs, and
+                wide range of options.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img src="https://storage.googleapis.com/realtyplusmag-news-photo/news-photo/114692.Step-Into-Safety-and-Style-this-Holi-with-Orientbell-Tiles'-Inspire-Safegrip-Collection.png"
+                alt="...">
+            <h2 class="fw-normal">Orient Bell Limited:</h2>
+            <p>Orient Bell manufactures a wide range of ceramic, vitrified, and digital tiles, known for their quality,
+                durability, and aesthetic appeal.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <h1 class="my-2 text-center my-4">and many more+</h1>
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="c-content-title-1 wow amimate fadeInLeft walltile_firstheading">
+        <h2 style="font-weight: bold; font-family: 'Times New Roman', serif"> Transform Your Space with</h2>
+    </div>
+
+    <hr class="featurette-divider">
+    <br>
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h1 class="featurette-heading fw-normal lh-1">Elevate Your Walls and Floors with Premium<span
+                    class="text-body-secondary">Tiles.</span></h1>
+            <p style="font-style: italic; font-family: 'Times New Roman', serif; font-size: 1.5em">Elevate your interiors with Agarwal Marbles & Tiles. Our premium selection of wall and floor tiles seamlessly blends style and durability. Transform your spaces with elegant designs that promise both beauty and functionality. Discover the perfect touch for every surface....</p>
+            <a class="btn btn-primary" href="http://127.0.0.1:8000/%2Ftiles/" role="button">Explore</a>
+        </div>
+        
+        <div class="col-md-5 order-md-1">
+            <img src="https://media.wickes.co.uk/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_jpg,h_500,q_auto:good,w_500/c_pad,h_500,w_500/v1/products/wickes/GPID_5000103794_00?pgw=1"
+                class="d-block w-100" alt="...">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h1 class="featurette-heading fw-normal lh-1">Step into Luxury with Our <span
+                    class="text-body-secondary">Marbles.</span></h1>
+            <p style="font-style: italic; font-family: 'Times New Roman', serif; font-size: 1.5em">Transform your space with Agarwal Marbles & Tiles. Our exquisite collection combines timeless beauty with unmatched craftsmanship. Elevate every corner with our luxurious and durable marbles and tiles. Discover elegance that stands the test of time....</p>
+            <a class="btn btn-primary" href="http://127.0.0.1:8000/%2Fmarbles/" role="button">Explore</a>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="https://media.wickes.co.uk/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_jpg,h_500,q_auto:good,w_500/c_pad,h_500,w_500/v1/products/wickes/GPID_5000123643_00?pgw=1"
+                class="d-block w-100" alt="...">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    
+    <!-- /END THE FEATURETTES -->
+
+    <div class="container">
+        <h3 style="font-weight: bold; font-family: 'Times New Roman', serif; font-size: 4em;">
+            Designer Wall Tiles India for Bathroom &amp; Kitchen
+        </h3>
+        <p style="font-style: italic; font-family: 'Times New Roman', serif; font-size: 1.5em">
+            Our mesmerizing range of designer bathroom &amp; kitchen floor and wall tiles have a luxurious appeal and seem to have been struck with afflatus. The premier collection is a showstopper and has the ability to make any dimension look grand. Every single piece of tile from our range of designer bathroom &amp; kitchen floor and wall tiles has a compelling aura. The matt finish tiles for kitchen from our collection fit perfectly with modern day designs while our rustic kitchen wall tiles blend easily with every surrounding.
+        </p>
+        <br><br>
+        <span id="dots" style="display: none;"></span>
+        <span id="more" style="display: inline;">
+            <h3 style="font-weight: bold; font-family: 'Times New Roman', serif; font-size: 4em;">
+                Design Available in Gloss, Matt, Metallic, Anti Slip, Digital &amp; Rustic tiles
+            </h3>
+            <p style="font-style: italic; font-family: 'Times New Roman', serif; font-size: 1.5em">
+                The exquisite collection we offer comes in various designs available in gloss, matt, metallic, anti-slip and rustic finishes. Our floor tiles design use special technology that makes them strong and stylish. The wooden floor tiles from our collection brings you closer to nature with their realistic finish. We promise to leave you in awe with our range of floor tiles also. Being one of India's top manufacturers of tiles, our motto is to keep fulfilling your appetite for style &amp; aesthetics with innovation.
+            </p>
+        </span>
+        <hr class="featurette-divider">
+        <br>
+    </div>
+</div>
+{% endblock body %}

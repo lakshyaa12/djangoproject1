@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock title %}
+
+{% block body %}
+<style>
+    /* About Page Styles */
+    section.py-3.py-md-5 {
+        background-color: #f9f9f9; /* Light background for contrast */
+        padding: 4rem 1rem; /* Increased padding for a spacious feel */
+    }
+
+    section.py-3.py-md-5 img {
+        border-radius: 1rem; /* Rounded corners for images */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    h2.mb-3 {
+        font-size: 2.5rem; /* Larger font size for headings */
+        color: #333; /* Darker color for better readability */
+        margin-bottom: 1rem; /* Space below the heading */
+    }
+
+    p.lead.fs-4.text-secondary.mb-3 {
+        font-size: 1.125rem; /* Slightly larger font size for the lead paragraph */
+        color: #555; /* Softer text color for a refined look */
+        line-height: 1.6; /* Improved line spacing for readability */
+        margin-bottom: 1.5rem; /* Space below the paragraph */
+    }
+
+    p.mb-5 {
+        font-size: 1rem; /* Standard font size for additional text */
+        color: #666; /* Light grey color for additional text */
+        line-height: 1.6;
+        margin-bottom: 2rem; /* Increased space below the paragraph */
+    }
+
+    .d-flex {
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .text-primary {
+        color: #007bff; /* Primary color for icons and accents */
+    }
+
+    h2.h4.mb-3 {
+        font-size: 1.5rem; /* Font size for subheadings */
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .text-secondary.mb-0 {
+        color: #777; /* Lighter color for supporting text */
+        font-size: 0.875rem; /* Slightly smaller font size */
+    }
+
+    svg {
+        fill: #007bff; /* Primary color for SVG icons */
+        transition: fill 0.3s ease; /* Smooth transition effect */
+    }
+
+    svg:hover {
+        fill: #0056b3; /* Darker color on hover */
+    }
+</style>
+
+<section class="py-3 py-md-5">
+    <div class="container">
+        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+            <div class="col-12 col-lg-6 col-xl-5">
+                <img class="img-fluid rounded" loading="lazy" src="/static/2.png" alt="About 1">
+            </div>
+            <div class="col-12 col-lg-6 col-xl-7">
+                <div class="row justify-content-xl-center">
+                    <div class="col-12 col-xl-11">
+                        <h2 class="mb-3">Agarwal Marbles and Tiles</h2>
+                        <p class="lead fs-4 text-secondary mb-3">Welcome to Agarwal Marbles and Tiles! Serving
+                            excellence since 1980, we are your trusted destination for high-quality marble and tile
+                            solutions in Meerut, Uttar Pradesh. With over four decades of experience, we have built a
+                            reputation for innovation, quality, and customer satisfaction.
+
+                            Located in the heart of Meerut, we offer a wide range of stylish and durable marble and tile
+                            products designed to meet the diverse needs of our clients. Whether you're renovating your
+                            home, office, or any other space, we provide the perfect blend of elegance and functionality
+                            to enhance your interiors.
+
+                            At Agarwal Marbles and Tiles, we believe in making your vision a reality. Our dedicated team
+                            of experts is here to guide you every step of the way, ensuring you find the ideal products
+                            to transform your space. Explore our collection and experience the unmatched quality and
+                            service that have made us a leader in the industry for over 40 years.</p>
+                        <p class="mb-5">At Agarwal Marbles and Tiles, we are dedicated to bringing your vision to life.
+                            With over 40 years of experience, we personally guide you through every step. Explore our
+                            collection and discover the unmatched quality and service that define our legacy in Meerut
+                            for decades.</p>
+                        <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex">
+                                    <div class="me-4 text-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h2 class="h4 mb-3">Versatile Brand</h2>
+                                        <p class="text-secondary mb-0">At Agarwal Marbles and Tiles, we are shaping a
+                                            digital strategy that resonates across all platforms. With over 40 years of
+                                            experience, we bring your vision to life through innovative solutions that
+                                            transcend traditional boundaries. Explore our diverse range of products and
+                                            experience the excellence that defines our legacy in Meerut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex">
+                                    <div class="me-4 text-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                            fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h2 class="h4 mb-3">Innovative Approach</h2>
+                                        <p class="text-secondary mb-0">At Agarwal Marbles and Tiles, we innovate by
+                                            blending simplicity with sophistication. With a deep-rooted commitment to
+                                            quality and craftsmanship, we bring unique and refined solutions to every
+                                            project. Explore our wide array of products and discover the excellence that
+                                            sets us apart in Meerut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock body %}
